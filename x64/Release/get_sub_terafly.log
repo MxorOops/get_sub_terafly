@@ -1,0 +1,32 @@
+﻿生成启动时间为 2021/11/17 16:53:46。
+     1>项目“D:\V3D\vaa3d_tools\hackathon\Shuhan\get_sub_terafly\get_sub_terafly.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“x64\Release\get_sub_terafly.lastbuildstate”。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Intermediate 目录。
+       InitializeBuildStatus:
+         正在创建“x64\Release\get_sub_terafly.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing get_sub_terafly_plugin.h...
+         Qt: Untested Windows version 6.2 detected!
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IE:\Qt\4.7.2\include\QtCore /IE:\Qt\4.7.2\include\QtGui /IE:\Qt\4.7.2\include /I..\..\..\..\v3d_external\v3d_main\basic_c_fun /IE:\Qt\4.7.2\include\ActiveQt /Irelease /I"e:\Qt\4.7.2\mkspecs\win32-msvc2010" /Zi /nologo /W0 /WX- /O2 /D _WINDOWS /D NDEBUG /D NDEBUG /D QT_CORE_LIB /D QT_DLL /D QT_GUI_LIB /D QT_HAVE_3DNOW /D QT_HAVE_MMX /D QT_HAVE_MMXEXT /D QT_HAVE_SSE /D QT_HAVE_SSE2 /D QT_LARGEFILE_SUPPORT /D QT_LARGEFILE_SUPPORT /D QT_NO_DEBUG /D QT_NO_DEBUG /D QT_PLUGIN /D QT_THREAD_SUPPORT /D UNICODE /D UNICODE /D WIN32 /D WIN32 /D _WINDLL /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt get_sub_terafly_plugin.cpp ..\..\..\..\v3d_external\v3d_main\basic_c_fun\v3d_message.cpp Release\moc_get_sub_terafly_plugin.cpp -Zm200 
+         get_sub_terafly_plugin.cpp
+         v3d_message.cpp
+         moc_get_sub_terafly_plugin.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\..\v3d_external\bin\plugins\Shuhan\get_sub_terafly\get_sub_terafly.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\Qt\4.7.2\lib /LIBPATH:e:\Qt\4.7.2\lib E:\Qt\4.7.2\lib\QtGui4.lib E:\Qt\4.7.2\lib\QtCore4.lib D:\anaconda3\envs\v3d\libs\python38.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\get_sub_terafly.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\V3D\v3d_external\bin\plugins\Shuhan\get_sub_terafly\get_sub_terafly.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 /DLL x64\Release\get_sub_terafly_plugin.obj
+         x64\Release\v3d_message.obj
+         x64\Release\moc_get_sub_terafly_plugin.obj  /SUBSYSTEM:WINDOWS
+            正在创建库 ..\..\..\..\v3d_external\bin\plugins\Shuhan\get_sub_terafly\get_sub_terafly.lib 和对象 ..\..\..\..\v3d_external\bin\plugins\Shuhan\get_sub_terafly\get_sub_terafly.exp
+         get_sub_terafly.vcxproj -> D:\V3D\vaa3d_tools\hackathon\Shuhan\get_sub_terafly\..\..\..\..\v3d_external\bin\plugins\Shuhan\get_sub_terafly\get_sub_terafly.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\..\v3d_external\bin\plugins\Shuhan\get_sub_terafly\get_sub_terafly.dll;#2" /manifest x64\Release\get_sub_terafly.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\get_sub_terafly.unsuccessfulbuild”。
+         正在对“x64\Release\get_sub_terafly.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\V3D\vaa3d_tools\hackathon\Shuhan\get_sub_terafly\get_sub_terafly.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.16
